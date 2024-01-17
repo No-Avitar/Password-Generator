@@ -1,5 +1,5 @@
 // Assignment code here
-
+const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*_-+=";
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -8,7 +8,7 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
+  
   passwordText.value = password;
 
 }
